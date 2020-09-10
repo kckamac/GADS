@@ -1,0 +1,8 @@
+gsutil mb -b on -c standard -l us-central1 gs://kmacims-bucket2
+
+
+Note:
+-b turns uniform access to objects in the bucket on or off
+-c indicates the type/ class of bucket (standard, nearline, coldline)
+-l indicates the storage location
+Finally gs://[bucketName]
